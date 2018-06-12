@@ -7379,7 +7379,7 @@ if (inBrowser) {
 /*  */
 
 exports.default = Vue;
-},{}],12:[function(require,module,exports) {
+},{}],22:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -7409,7 +7409,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],11:[function(require,module,exports) {
+},{}],16:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -7440,7 +7440,7 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":12}],13:[function(require,module,exports) {
+},{"./bundle-url":22}],17:[function(require,module,exports) {
 var Vue // late bind
 var version
 var map = (window.__VUE_HOT_MAP__ = Object.create(null))
@@ -7682,7 +7682,7 @@ exports.reload = tryWrap(function (id, options) {
   })
 })
 
-},{}],4:[function(require,module,exports) {
+},{}],5:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -7748,7 +7748,7 @@ render._withStripped = true
       
       }
     })();
-},{"_css_loader":11,"vue-hot-reload-api":13,"vue":7}],16:[function(require,module,exports) {
+},{"_css_loader":16,"vue-hot-reload-api":17,"vue":7}],11:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -7823,7 +7823,7 @@ render._withStripped = true
       
       }
     })();
-},{"_css_loader":11,"vue-hot-reload-api":13,"vue":7}],15:[function(require,module,exports) {
+},{"_css_loader":16,"vue-hot-reload-api":17,"vue":7}],10:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -7845,7 +7845,7 @@ var install = function install(Vue) {
 };
 
 exports.default = install;
-},{"vue":7,"./Header.vue":16}],2:[function(require,module,exports) {
+},{"vue":7,"./Header.vue":11}],4:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -7878,7 +7878,7 @@ var app = new _vue2.default({
 });
 
 exports.default = app;
-},{"vue":7,"./App.vue":4,"./components":15}],23:[function(require,module,exports) {
+},{"vue":7,"./App.vue":5,"./components":10}],24:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -7907,7 +7907,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '60487' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '64630' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -8048,5 +8048,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[23,2], null)
+},{}]},{},[24,4], null)
 //# sourceMappingURL=/src.8d9e091b.map
